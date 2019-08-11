@@ -1,0 +1,68 @@
+.container {
+  max-width: 900px;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+
+  .title {
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .sub-title {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+  }
+
+  .tools {
+    button {
+      background-color: transparent;
+      border: 1px solid lightgray;
+      border-radius: 2px;
+      margin: 0 5px;
+
+      label {
+        cursor: pointer;
+      }
+    }
+
+    button span {
+      display: inline-block;
+      font-size: 18px;
+      color: #1D6741;
+    }
+
+    button small {
+      vertical-align: 4px;
+    }
+  }
+
+  .table-contact {
+    width: 100%;
+    padding: 10px;
+
+    .thead {
+      th {
+        text-align: left;
+        border-bottom: 2px solid lightgray;
+
+      }
+    }
+
+    .tbody {
+      td {
+        font-size: 12px;
+        border-bottom: 1px solid whitesmoke;
+        padding: 8px 5px;
+      }
+
+      &.odd {
+        background-color: whitesmoke;
+      }
+    }
+  }
+
+}

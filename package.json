@@ -10,6 +10,11 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "author": {
+    "name": "Touwin10",
+    "url": "https://touwin10.com/"
+  },
+  "license": "MIT",
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
@@ -19,9 +24,12 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "@mdi/font": "^3.6.95",
+    "faker": "^4.1.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
+    "xlsx": "0.15.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
